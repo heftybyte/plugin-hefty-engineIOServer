@@ -1,0 +1,13 @@
+{
+	"name": "plugin-engineIOServer",
+	"version": "0.0.1",
+	"main": "engineIOServer.js",
+	"dependencies": {
+		"engine.io": "*",
+		"plugin-expressServer": "*"
+	},
+	"plugin": {
+		"consumes": ["expressServer"],
+		"provides": ["engineIOServer"]
+	}
+}
