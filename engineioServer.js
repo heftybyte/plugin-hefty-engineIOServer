@@ -6,6 +6,6 @@ module.exports = function setups(options, imports, register) {
 	var server = engine.attach(httpServer);
 
 	register(null,{
-		socketServer: server
+		'hefty-engineioServer': server
 	});
 }
