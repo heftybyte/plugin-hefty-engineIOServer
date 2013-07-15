@@ -1,13 +1,14 @@
 {
-	"name": "plugin-engineIOServer",
+	"name": "plugin-hefty-engineioServer",
 	"version": "0.0.1",
-	"main": "engineIOServer.js",
+	"main": "engineioServer.js",
+	"repository": "git://github.com:heftybyte/plugin-hefty-engineioServer",
 	"dependencies": {
 		"engine.io": "*",
-		"plugin-expressServer": "*"
+		"plugin-hefty-expressServer": "*"
 	},
 	"plugin": {
-		"consumes": ["expressServer"],
-		"provides": ["engineIOServer"]
+		"consumes": ["hefty-expressServer"],
+		"provides": ["hefty-engineioServer"]
 	}
 }
